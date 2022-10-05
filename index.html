@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Team HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
+    
+    <!-- 
+    
+    Enable one styles which the you want
+    
+    <link href="css-min/soccer.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/hockey.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/basketball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/football.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/baseball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/dota.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/csgo.min.css" rel="stylesheet" type="text/css" />
+    
+    All libraries included in this css, concating rules in /grunt/cssmin.js
+    Use grunt default task for creating this files
+    
+    -->
+</head>
+
+<body>
+
+	<div class="preloader-wrapper" id="preloader">
+    <div class="motion-line dark-big"></div>
+    <div class="motion-line yellow-big"></div>
+    <div class="motion-line dark-small"></div>
+    <div class="motion-line yellow-normal"></div>
+    <div class="motion-line yellow-small1"></div>
+    <div class="motion-line yellow-small2"></div>
+</div>
+
+    
+
+
+    <!--MAIN MENU WRAP BEGIN-->
+<div class="main-menu-wrap sticky-menu">
+    <div class="container">
+        <a href="index.html" class="custom-logo-link"><img src="images/soccer/logo.png" alt="logo" class="custom-logo" width="90"></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#team-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <nav class="navbar">
+            <div class="collapse navbar-collapse" id="team-menu">
+                <ul class="main-menu nav">
+                    <li class="active">
+                        <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#standings"><span>Paikpara World CUp 2022</span></a>
+                        <ul>
+                            <li>
+                                <a href="#standings"><span>Point Table<i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                            </li>
+            
+                        </ul>
+                </ul>
+            </div>       
+        </nav>
+    </div>
+</div>
+<!--MAIN MENU WRAP END-->
+
+
+    <div class="main-slider-section">
+    <div class="main-slider">
+        <div id="main-slider" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="main-slider-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="match-date">2 Oct 2022 / 5:00 PM</div>
+                                    <div class="team"> Portugal
+                                        <div class="big-count">
+                                            VS
+                                        </div>
+                                        Netharlands
+                                    </div>                                    
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="main-slider-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="match-date">3 Oct 2022 / 5:00 PM</div>
+                                    <div class="team"> England
+                                        <div class="big-count">
+                                            VS
+                                        </div>
+                                        Mexico
+                                    </div>                                    
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="main-slider-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="match-date">4 Oct 2022 / 5:00 PM</div>
+                                    <div class="team"> Belgium
+                                        <div class="big-count">
+                                            VS
+                                        </div>
+                                        Netharlands
+                                    </div>                                    
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="nav-arrow left-arrow" href="#main-slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <span class="sr-only"></span>
+            </a>
+            <a class="nav-arrow right-arrow" href="#main-slider" role="button" data-slide="next">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <span class="sr-only"></span>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <section class="main-match-shedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Next match</h6>
+                    
+<div class="main-next-match bg-cover">
+    <img src="images/soccer/next-match-bg.jpg" class="next-match-background-img" alt="next-image"> 
+    <div class="wrap">
+        <div class="date" >2 Octber 2022 /5.00 PM</div>
+        <div class="teams-wrap" >
+                <a href="staff.html" class="team">
+                    <span>Portugal</span>
+                    <span><img src="images/soccer/Portugal.png" alt="team-image"></span>
+                </a>
+                <div class="vs">
+                   vs
+                </div>
+                <a href="staff.html" class="team1">
+                    <span><img src="images/soccer/Netherland.png" alt="team-image"></span>
+                    <span>Netherland</span>
+                </a>
+        </div>
+        <a href="#" class="booking">UPCOMING MATCH</a>
+    </div>
+</div>
+                </div>
+                <!-- latest match start -->
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Latest matches</h6>
+                        
+<div class="main-lates-matches">
+    <a href="#" class="item">
+        <span class="championship">Paikpara World Cup 2022</span>
+        <span class="teams-wrap">
+                <span class="team">
+                    <span>
+                        <img src="images/soccer/Portugal.png" alt="team-image">
+                    </span>
+                    <span>Portugal</span>
+                </span>
+                <span class="score">
+                    <span>2:2</span>
+
+                </span>
+                <span class="team1">
+                    <span>Belgium</span>
+                    <span><img src="images/soccer/Belgium.png" alt="team-image"></span>
+                </span>
+        </span>
+       
+    </a>
+    <a href="#" class="item">
+        <span class="championship">Paikpara World Cup 2022</span>
+        <span class="teams-wrap">
+                <span class="team">
+                    <span>
+                        <img src="images/soccer/Germany.png" alt="team-image">
+                    </span>
+                    <span>Germany</span>
+                </span>
+                <span class="score">
+                    <span>2:0</span>
+
+                </span>
+                <span class="team1">
+                    <span>England</span>
+                    <span><img src="images/soccer/England_flag.png" alt="team-image"></span>
+                </span>
+        </span>
+       
+    </a>
+    <a href="#" class="item">
+        <span class="championship">Paikpara World Cup 2022</span>
+        <span class="teams-wrap">
+                <span class="team">
+                    <span>
+                        <img src="images/soccer/Netherland.png" alt="team-image">
+                    </span>
+                    <span>Netherland</span>
+                </span>
+                <span class="score">
+                    <span>2:3</span>
+
+                </span>
+                <span class="team1">
+                    <span>Mexico</span>
+                    <span><img src="images/soccer/Mexico.png" alt="team-image"></span>
+                </span>
+        </span>
+       
+    </a>
+    <a href="#" class="item">
+        <span class="championship">Paikpara World Cup 2022</span>
+        <span class="teams-wrap">
+                <span class="team">
+                    <span>
+                        <img src="images/soccer/Germany.png" alt="team-image">
+                    </span>
+                    <span>Germany</span>
+                </span>
+                <span class="score">
+                    <span>0:0</span>
+
+                </span>
+                <span class="team1">
+                    <span>Belgium</span>
+                    <span><img src="images/soccer/Belgium.png" alt="team-image"></span>
+                </span>
+        </span>
+       
+    </a>
+    <a href="#" class="item">
+        <span class="championship">Paikpara World Cup 2022</span>
+        <span class="teams-wrap">
+                <span class="team">
+                    <span>
+                        <img src="images/soccer/Germany.png" alt="team-image">
+                    </span>
+                    <span>Germany</span>
+                </span>
+                <span class="score">
+                    <span>0:0</span>
+
+                </span>
+                <span class="team1">
+                    <span>Belgium</span>
+                    <span><img src="images/soccer/Belgium.png" alt="team-image"></span>
+                </span>
+        </span>
+       
+    </a>
+
+</div>
+                </div>
+            <!-- latest match Enbd-->
+
+            </div>
+        </div>
+    </section>
+
+    <!--MAIN MACTH SHEDULE END-->
+
+    <!--STANDING TABLE WRAP BEGIN-->
+
+    <section class="standing-table-wrap" id="standings">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4>Paikpara World Cup 2022</h4>
+                    <ul class="tab-filters" role="tablist">
+                        <li class="active"><a href="#2017" role="tab" data-toggle="tab">2022</a></li>
+                        <!-- <li><a href="#2016" role="tab" data-toggle="tab">2016</a></li>
+                        <li><a href="#2015" role="tab" data-toggle="tab">2015</a></li>
+                        <li><a href="#2014" role="tab" data-toggle="tab">2022</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 overflow-scroll standings-table"> 
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="2017" role="tabpanel">
+                            <table class="standing-full">
+                                <tr>
+                                    <th>club</th>
+                                    <th>played</th>
+                                    <th>won</th>
+                                    <th>drawn</th>
+                                    <th>lost</th>
+                                    <th>gd</th>
+                                    <th>points</th>
+                                    <th>form</th>
+                                </tr>
+                                <tr>
+                                    <td class="up">
+                                        <i class="fa fa-caret-up" aria-hidden="true"></i> 1 <span class="team"><img src="images/soccer/Germany.png" width="30" height="30" alt="team-logo"> </span>Germany
+                                    </td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>+2</td>
+                                    <td class="points"><span>4</span></td>
+                                    <td class="form">
+                                        <span class="win">w</span>
+                                        <span class="drawn">d</span>
+                                        <!-- <span class="lose">l</span>
+                                        <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo2.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                                <tr>
+                                    <td class="down">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i> 2 <span class="team"><img src="images/soccer/Mexico.png" width="30" height="30" alt="team-logo"> </span>Mexico
+                                    </td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>+1</td>
+                                    <td class="points"><span>3</span></td>
+                                    <td class="form">
+                                        <span class="win">w</span>
+                                        <!-- <span class="drawn">d</span>
+                                        <span class="lose">l</span>
+                                        <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo1.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                                <tr>
+                                    <td class="down">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i> 2 <span class="team"><img src="images/soccer/Belgium.png" width="30" height="30" alt="team-logo"> </span>Belgium
+                                    </td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>+0</td>
+                                    <td class="points"><span>2</span></td>
+                                    <td class="form">
+                                        <!-- <span class="win">w</span> -->
+                                        <span class="drawn">d</span>
+                                        <span class="drawn">d</span>
+                                        <!-- <span class="lose">l</span>
+                                        <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo4.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                                <tr>
+                                    <td class="down">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i> 2 <span class="team"><img src="images/soccer/Portugal.png" width="30" height="30" alt="team-logo"> </span>Portugal
+                                    </td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>+0</td>
+                                    <td class="points"><span>1</span></td>
+                                    <td class="form">
+                                        <!-- <span class="win">w</span> -->
+                                        <span class="drawn">d</span>
+                                        <!-- <span class="lose">l</span>
+                                        <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo3.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                                <tr>
+                                    <td class="none">
+                                        <i class="fa fa-circle" aria-hidden="true"></i> 3 <span class="team"><img src="images/soccer/England_flag.png" width="30" height="30" alt="team-logo"> </span>England
+                                    </td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>-2</td>
+                                    <td class="points"><span>0</span></td>
+                                    <td class="form">
+                                        <!-- <span class="win">w</span>
+                                        <span class="drawn">d</span> -->
+                                        <span class="lose">l</span>
+                                        <!-- <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo1.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                                <tr>
+                                    <td class="none">
+                                        <i class="fa fa-circle" aria-hidden="true"></i> 3 <span class="team"><img src="images/soccer/Netherland.png" width="30" height="30" alt="team-logo"> </span>Netherland
+                                    </td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>-1</td>
+                                    <td class="points"><span>0</span></td>
+                                    <td class="form">
+                                        <!-- <span class="win">w</span>
+                                        <span class="drawn">d</span> -->
+                                        <span class="lose">l</span>
+                                        <!-- <span class="win">w</span>
+                                        <span class="win">w</span> -->
+                                    </td>
+                                    <!-- <td><a href="club-stats.html"><img src="images/soccer/team-logo1.png" width="30" height="30" alt="team-logo"></a></td> -->
+                                </tr>
+                        </div>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <p>Pabst irony tattooed, synth sriracha selvage pok pok. Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep v mixtape semiotics brunch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!--CALL TO ACTION BEGIN-->
+<div class="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-9 col-xs-6">
+                <div class="text">Become part of a great Club</div>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-6 text-right">
+                <a href="contacts.html" class="join">Join us</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--CALL TO ACTION END-->
+
+
+
+    <!--FOOTER BEGIN-->
+<footer class="footer">
+    <div class="wrapper-overfllow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="footer-left">
+                        <div class="wrap">
+                            <a href="index-2.html" class="foot-logo"><img src="images/soccer/logo.png" alt="footer-logo" width="100"></a>
+                            <p>Activated charcoal trust fund ugh prism af, beard marfa air plant stumptown gastropub farm-to-table jianbing.</p>
+                            <ul class="foot-left-menu">
+                                <li><a href="#">Cricket team</a></li>
+                                <li><a href="#">Football team</a></li>
+                                <li><a href="#">Junior Team</a></li>
+                                <li><a href="#">trophies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-offset-1">
+                    <!-- <div class="foot-news">
+                        <h4>Recent news</h4>
+                        <div class="item">
+                            <a href="news.html" class="image"><img class="img-responsive" src="images/soccer/foot-news-img.jpg" alt="news-image"></a>
+                            <a href="news.html" class="name">When somersaulting Sanchez shouldered Mexico’s hopes</a>
+                            <a href="news.html" class="date">25 Sep 2016</a>
+                            <span class="separator">in</span>
+                            <a href="news.html" class="category">Highlights</a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class=" col-lg-3 col-md-4 col-sm-12">
+                    <div class="foot-contact">
+                        <h4>Contact us</h4>
+                        <!-- <ul class="contact-list">
+                            <li><i class="fa fa-flag" aria-hidden="true"></i><span>276 Upper Parliament Street, Liverpool L8, Great Britain</span></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:team@email.com">team@email.com</a></li>
+                            <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>+61 3 8376 6284</span></li>
+                        </ul> -->
+                        <ul class="socials">
+                            <li><a href="https://web.facebook.com/scpaikpara"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="copyrights">
+                        <a target="_blank" href="index.html">Sporting Club Paikpara</a>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="created">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script type="text/javascript" src="js/library/jquery-ui.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.js"></script>
+<script type="text/javascript" src="js/library/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/library/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/library/jcarousel.connected-carousels.js"></script>
+<script type="text/javascript" src="js/library/owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/progressbar.js"></script>
+<script type="text/javascript" src="js/library/jquery.bracket.min.js"></script>
+<script type="text/javascript" src="js/library/chartist.js"></script>
+<script type="text/javascript" src="js/library/Chart.js"></script>
+<script type="text/javascript" src="js/library/fancySelect.js"></script>
+<script type="text/javascript" src="js/library/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/library/imagesloaded.pkgd.js"></script>
+
+<script type="text/javascript" src="js/jquery.team-coundown.js"></script>
+<script type="text/javascript" src="js/matches-slider.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/matches_broadcast_listing.js"></script>
+<script type="text/javascript" src="js/news-line.js"></script>
+<script type="text/javascript" src="js/match_galery.js"></script>
+<script type="text/javascript" src="js/main-club-gallery.js"></script>
+<script type="text/javascript" src="js/product-slider.js"></script>
+<script type="text/javascript" src="js/circle-bar.js"></script>
+<script type="text/javascript" src="js/standings.js"></script>
+<script type="text/javascript" src="js/shop-price-filter.js"></script>
+<script type="text/javascript" src="js/timeseries.js"></script>
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/diagram.js"></script>
+<script type="text/javascript" src="js/bi-polar-diagram.js"></script>
+<script type="text/javascript" src="js/label-placement-diagram.js"></script>
+<script type="text/javascript" src="js/donut-chart.js"></script>
+<script type="text/javascript" src="js/animate-donut.js"></script>
+<script type="text/javascript" src="js/advanced-smil.js"></script>
+<script type="text/javascript" src="js/svg-path.js"></script>
+<script type="text/javascript" src="js/pick-circle.js"></script>
+<script type="text/javascript" src="js/horizontal-bar.js"></script>
+<script type="text/javascript" src="js/gauge-chart.js"></script>
+<script type="text/javascript" src="js/stacked-bar.js"></script>
+
+<script type="text/javascript" src="js/library/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-threshold.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-pointlabels.js"></script>
+
+<script type="text/javascript" src="js/treshold.js"></script>
+<script type="text/javascript" src="js/visible.js"></script>
+<script type="text/javascript" src="js/anchor.js"></script>
+<script type="text/javascript" src="js/landing_carousel.js"></script>
+<script type="text/javascript" src="js/landing_sport_standings.js"></script>
+<script type="text/javascript" src="js/twitterslider.js"></script>
+<script type="text/javascript" src="js/champions.js"></script>
+<script type="text/javascript" src="js/landing_mainnews_slider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/video_slider.js"></script>
+<script type="text/javascript" src="js/footer_slides.js"></script>
+<script type="text/javascript" src="js/player_test.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+    
+    
+
+
+
+<script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+</body>
+
+
+</html>
